@@ -1,0 +1,7 @@
+.connectionStatusIcon {
+    margin-right: 8px;
+}
+
+.connectionStatusCell {
+    display: flex;
+}

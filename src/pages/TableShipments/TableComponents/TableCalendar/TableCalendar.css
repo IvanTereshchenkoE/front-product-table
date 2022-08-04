@@ -1,0 +1,32 @@
+.schedule-table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 800px;
+}
+
+.schedule-table__th,
+.schedule-table__td {
+  padding: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.schedule-table__td {
+  border: 1px solid #fff;
+}
+
+.schedule-table__btn {
+  display: block;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background-color: #dfe4ef;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.schedule-table__btn_active {
+  background-color: #4281DE;
+}
